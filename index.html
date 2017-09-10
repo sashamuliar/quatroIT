@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>QuatroIT</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,800' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<script async type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpdS9uTBTfpLYsD1o8_rfFnDKXbji2M6E&libraries=places&callback=initMap"></script>
+</head>
+
+<body id="body">
+	<div class="mainWrap">
+		<div class="sidebarMenu" id="sidebar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Ourwork</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+		</div>
+
+		<div class="main" id="main">
+			<div class="headerWrap" id="headerWrap">
+				<header id="headerMenu">
+					<div class="container">
+						<ul class="clearRow deskMenu" id="desktopMenu">
+							<li><a class="active" href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Ourwork</a></li>
+							<li><a href="#" class="logo"><img src="images/logo.png" alt="logo"><span class="quattro">QuattroIT</span><span class="company">OUTSOURCING COMPANY</span></a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contacts</a></li>
+						</ul>
+						<div class="mobMenu">
+								<svg id='humb-icon' height="64" version="1.1" width="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+									<g id='humb-group'>
+										<path class="firstLine" fill="#494949" d="M57.9,23.3H6.1c-0.6,0-1-0.4-1-1v-3c0-0.6,0.4-1,1-1h51.8c0.6,0,1,0.4,1,1v3C58.9,22.9,58.4,23.3,57.9,23.3z"/>
+										<path class="secondLine" fill="#494949" d="M58,34.4l-51.9,0c-0.6,0-1-0.4-1-1v-3c0-0.6,0.4-1,1-1H58c0.6,0,1,0.4,1,1v3C59,34,58.6,34.4,58,34.4z"/>
+										<path class="thirdLine" fill="#494949" d="M57.9,45.5H6.1c-0.6,0-1-0.4-1-1v-3c0-0.6,0.4-1,1-1h51.8c0.6,0,1,0.4,1,1v3C58.9,45,58.4,45.5,57.9,45.5z"/>
+									</g>
+								</svg>
+							<a href="#" class="logo"><img src="images/logo.png" alt="logo"><span class="quattro">QuattroIT</span><span class="company">OUTSOURCING COMPANY</span></a>
+						</div>
+					</div>
+				</header>
+			</div>
+				<div class="sliderWrap">
+					<div class="sliderContainer">
+						<div class="slider" id="sliderBoy">
+							<div class="slide slide1"><img src="images/slide1.png" alt=""></div>
+							<div class="slide slide2"><img src="images/slide2.png" alt=""></div>
+							<div class="slide slide3"><img src="images/slide3.png" alt=""></div>
+						</div>
+						<div class="container">
+							<div class="sliderBullets clearRow" id="bullets">
+								<div class="bullet active"></div>
+								<div class="bullet"></div>
+								<div class="bullet"></div>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="sliderText">
+							<div>
+								<h1>Create cute websites <br/>
+											 fast with us!</h1>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<section class="hello">
+					<div class="container">
+						<div class="row">
+							<div class="leftBlock col-sm-6">
+								<h2>Hello!</h2>
+								<p>Welcome to ThemeForest! Read our Getting Started Guide, visit the Blog for recent news and make yourself at home! You can find information about ThemeForest in our Knowledgebase.</p>
+								<h3>WordPress Drag & Drop Page Themes</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, labore fugiat laudantium, error at pariatur nihil maiores ea accusantium nostrum perspiciatis sequi officia? Blanditiis, voluptate. Quis nihil harum laboriosam! Doloremque voluptate nam ut consequatur, dignissimos eveniet odit non necessitatibus repudiandae enim, alias corporis quos, veritatis nostrum eaque magnam fugiat blanditiis. Omnis facilis in eos voluptatem earum temporibus a ipsam, aspernatur..</p>
+								<a href="#" class="view_detail">VIEW DETAIL</a>
+							</div>
+							<div class="rightBlock col-sm-6">
+								<div class="spoiler">
+									<p class="spoiler_title">Web Design Service <span class="arrow"></span></p>
+									<div class="spoiler_box">
+										<div class="spoiler_cont">
+											<p class="clearRow"><img src="images/f.png" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie erat at nisl volutpat pulvinar. Sed in egestas dolor. Maecenas vestibulum dignissim dictum. Donec ipsum quam, sagittis et sem vel, volutpat tempor mi. Aliquam consectetur justo dui. Sed in egestas dolor.</p>
+										</div>
+									</div>
+									<p class="spoiler_title">Creative Service <span class="arrow"></span></p>
+									<div class="spoiler_box">
+										<div class="spoiler_cont">
+											<p class="clearRow"><img src="images/f.png" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie erat at nisl volutpat pulvinar. Sed in egestas dolor. Maecenas vestibulum dignissim dictum. Donec ipsum quam, sagittis et sem vel, volutpat tempor mi. Aliquam consectetur justo dui. Sed in egestas dolor.</p>
+										</div>
+									</div>
+									<p class="spoiler_title">SEO Solutions Service <span class="arrow"></span></p>
+									<div class="spoiler_box">
+										<div class="spoiler_cont">
+											<p class="clearRow"><img src="images/f.png" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie erat at nisl volutpat pulvinar. Sed in egestas dolor. Maecenas vestibulum dignissim dictum. Donec ipsum quam, sagittis et sem vel, volutpat tempor mi. Aliquam consectetur justo dui. Sed in egestas dolor.</p>
+										</div>
+									</div>
+									<p class="spoiler_title">Graphic Design Service <span class="arrow"></span></p>
+									<div class="spoiler_box">
+										<div class="spoiler_cont">
+											<p class="clearRow"><img src="images/f.png" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie erat at nisl volutpat pulvinar. Sed in egestas dolor. Maecenas vestibulum dignissim dictum. Donec ipsum quam, sagittis et sem vel, volutpat tempor mi. Aliquam consectetur justo dui. Sed in egestas dolor.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="works">
+					<div class="container">
+						<h2>Amazing Works</h2>
+						<div class="box">
+							<div class="row no-gut">
+								<div class="preview col-xs-12 col-sm-6 col-md-4">
+									<div class="previewName">
+										<span class="previewTitle">Awesome Work Title Here</span><span class="likesNbr">34</span><span class="likes"></span>
+									</div>
+									<div class="previewBox">
+										<div class="blueHover"><p>+</p></div>
+										<div class="">
+											<img src="images/work-1.png" alt="" class="previewPic">
+										</div>
+									</div>
+								</div>
+								<div class="preview col-xs-12 col-sm-6 col-md-4">
+									<div class="previewName">
+										<span class="previewTitle">Awesome Work Title Here</span><span class="likesNbr">646</span><span class="likes"></span>
+									</div>
+									<div class="previewBox">
+										<div class="blueHover"><p>+</p></div>
+										<div class="">
+											<img src="images/work-2.png" alt="" class="previewPic">
+										</div>
+									</div>
+								</div>
+								<div class="preview col-xs-12 col-sm-6 col-md-4">
+									<div class="previewName">
+										<span class="previewTitle">Awesome Work Title Here</span><span class="likesNbr">12</span><span class="likes"></span>
+									</div>
+									<div class="previewBox">
+										<div class="blueHover"><p>+</p></div>
+										<div class="">
+											<img src="images/work-3.png" alt="" class="previewPic">
+										</div>
+									</div>
+								</div>
+								<div class="preview col-xs-12 col-sm-6 col-md-4">
+									<div class="previewName">
+										<span class="previewTitle">Awesome Work Title Here</span><span class="likesNbr">76</span><span class="likes"></span>
+									</div>
+									<div class="previewBox">
+										<div class="blueHover"><p>+</p></div>
+										<div class="">
+											<img src="images/work-4.png" alt="" class="previewPic">
+										</div>
+									</div>
+								</div>
+								<div class="preview col-xs-12 col-sm-6 col-md-4">
+									<div class="previewName">
+										<span class="previewTitle">Awesome Work Title Here</span><span class="likesNbr">57</span><span class="likes"></span>
+									</div>
+									<div class="previewBox">
+										<div class="blueHover"><p>+</p></div>
+										<div class="">
+											<img src="images/work-5.png" alt="" class="previewPic">
+										</div>
+									</div>
+								</div>
+								<div class="preview col-xs-12 col-sm-6 col-md-4">
+									<div class="previewName">
+										<span class="previewTitle">Awesome Work Title Here</span><span class="likesNbr">02</span><span class="likes"></span>
+									</div>
+									<div class="previewBox">
+										<div class="blueHover"><p>+</p></div>
+										<div class="">
+											<img src="images/work-6.png" alt="" class="previewPic">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="reasonWrapper">
+					<div class="container">
+						<section class="reason">
+							<div class="row">
+								<div class="reason_left col-sm-6">
+									<h2>Why Work With Us</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada nulla sit amet sem sagittis, posuere aliquet ipsum vehicula. Suspendisse nec mollis turpis.</p>
+									<p>Aenean tristique a mi ac porta. Morbi adipiscing suscipit risus vel ullamcorper. Pellentesque et est ante. Vestibulum convallis, justo at tristique faucibus, nunc nunc euismod magna, in ultricies felis libero vitae erat. Sed quis porta felis, a convallis nulla. Curabitur auctor ligula id nunc dignissim, a porta libero cursus.</p>
+									<a href="#" class="view_detail">VIEW DETAIL</a>
+								</div>
+								<div class="reasonRight col-sm-6"></div>
+							</div>
+						</section>
+					</div>
+				</div>
+
+				<div class="funFact">
+					<div class="clearRow">
+						<div class="fact fact1"><p>28,3940 <br/><span>PURCHASES</span></p></div>
+						<div class="fact fact2"><p>345,789 <br/><span>SUBSCRIBERS</span></p></div>
+						<div class="fact fact3"><p>694+ <br/><span>ADDED</span></p></div>
+						<div class="fact fact2"><p>1,273,890 <br/><span>CUSTOMERS</span></p></div>
+						<div class="fact fact1"><p>3,637 <br/><span>COMMENTS</span></p></div>
+					</div>
+				</div>
+
+				<section class="reply">
+					<div class="container">
+						<h2>What Other Say About QuattrolIT</h2>
+						<div class="replyControls">
+							<button id="replyLeft" class="left-button">< Privious</button>
+							<button id="replyRight" class="right-button">Next ></button>
+						</div>
+						<div class="replySlider" id="reply-slider">
+							<div class="reply-single row active">
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face1.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Alex Osmichenko_1</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 clearRow">
+									<div class="comment">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face2.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Slavik Hrynovets</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 clearRow">
+									<div class="comment">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face3.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Jane Doe</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 clearRow">
+									<div class="comment">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face4.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Tran Mau Tri Tam</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reply-single row">
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face1.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Alex Osmichenko_2</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face2.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Slavik Hrynovets</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face3.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Jane Doe</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box clearRow">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face4.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Tran Mau Tri Tam</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reply-single row">
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face1.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Alex Osmichenko_3</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face2.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Slavik Hrynovets</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face3.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Jane Doe</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face4.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Tran Mau Tri Tam</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reply-single row">
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face1.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Alex Osmichenko_4</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face2.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Slavik Hrynovets</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face3.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Jane Doe</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="comment clearRow">
+										<div class="picture_box">
+											<div class="outside_box">
+												<div class="inside_box">
+													<img src="images/face4.png" alt="" class="col1">
+													<div class="inside_box_hover">
+														<p>+</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="comment_box">
+											<p class="commenter_name">Tran Mau Tri Tam</p>
+											<p class="commenter_profession">Web Designer</p>
+											<p class="commenter_comment">
+												Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sed lectus a mauris facilisis porta vel a nunc. Fusce sit amet neque volutpat, pretium risus id, placerat libero. Suspendisse ac condimentum lectus.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="partners">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-2 partnerBox">
+								<a href="#" class="partner partner1"></a>
+							</div>
+							<div class="col-sm-2 partnerBox">
+								<a href="#" class="partner partner2"></a>
+							</div>
+							<div class="col-sm-2 partnerBox">
+								<a href="#" class="partner partner3"></a>
+							</div>
+							<div class="col-sm-2 partnerBox">
+								<a href="#" class="partner partner4"></a>
+							</div>
+							<div class="col-sm-2 partnerBox">
+								<a href="#" class="partner partner5"></a>
+							</div>
+							<div class="col-sm-2 partnerBox">
+								<a href="#" class="partner partner6"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="map"></div>
+
+				<script type="text/javascript">
+					function initMap () {
+						var mapOptions = {
+							zoom: 11,
+							mapTypeControl:false,
+							streetViewControl:false,
+							fullscreenControl:false,
+							center: new google.maps.LatLng(50.073241, 20.049496),
+							styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+						};
+						var mapElement = document.getElementById('map');
+						var map = new google.maps.Map(mapElement, mapOptions);
+						var marker = new google.maps.Marker({
+							position: new google.maps.LatLng(50.073241, 20.049496),
+							map: map,
+							title: 'Snapp',
+							draggable:false,
+							icon:'images/marker.png'
+						});
+						// var searchTextField = document.getElementById('searchTextField');
+						// var searchBox = new google.maps.places.SearchBox(searchTextField);
+					}
+				</script>
+
+				<section class="feedback">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-6">
+								<h2>QuatrroIT</h2>
+								<p class="follow">
+										<a href="#" class="facebook"></a>
+										<a href="#" class="twitter"></a>
+										<a href="#" class="rss"></a>
+										<a href="#" class="google"></a>
+										<a href="#" class="flickr"></a>
+										<a href="#" class="dribble"></a>
+										<a href="#" class="linkedin"></a>
+										<a href="#" class="pinterest"></a>
+										<a href="#" class="skype"></a>
+										<a href="#" class="vimeo"></a>
+										<a href="#" class="tumblr"></a>
+								</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nulla eleifend, placerat metus ac, tempor nisl. Sed pellentesque, augue quis viverra lobortis, massa augue congue odio, sit amet volutpat arcu neque vitae lorem. </p>
+								<p>267 Banbury Road, Summertown</p>
+								<p>Oxford, United Kingdom OX2 7HT</p>
+								<p>United Kingdom</p>
+								<p>Phone: 01865 339665</p>
+								<p>Fax: 01865 339301</p>
+								<p>Email: hello@thefoxdesign.com</p>
+							</div>
+							<div class="col-sm-6 pl">
+								<form action="" class="submit_now">
+									<input type="text" placeholder="Name *">
+									<input type="text" placeholder="Email *">
+									<input type="text" placeholder="Phone number">
+									<textarea name="name" rows="8" cols="80"></textarea>
+									<input type="submit" class="submit_btn" value="SUBMIT NOW">
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="news">
+					<div class="clearRow">
+						<div class="newsBlock">
+							<div class="blockImg"><img src="images/line-1.png" alt=""></div>
+							<div class="darkHover"></div>
+							<div class="littleHover"></div>
+							<div class="blockTitle">
+								<p class="titleName">Standard Blog Title Here</p>
+								<p class="titleDate">27 July, 2014 | Category</p>
+							</div>
+						</div>
+						<div class="newsBlock">
+							<div class="blockImg"><img src="images/line-2.png" alt=""></div>
+							<div class="darkHover"></div>
+							<div class="littleHover"></div>
+							<div class="blockTitle">
+								<p class="titleName">Standard Blog Title Here</p>
+								<p class="titleDate">27 July, 2014 | Category</p>
+							</div>
+						</div>
+						<div class="newsBlock">
+							<div class="blockImg"><img src="images/line-3.png" alt=""></div>
+							<div class="darkHover"></div>
+							<div class="littleHover"></div>
+							<div class="blockTitle">
+								<p class="titleName">Standard Blog Title Here</p>
+								<p class="titleDate">27 July, 2014 | Category</p>
+							</div>
+						</div>
+						<div class="newsBlock">
+							<div class="blockImg"><img src="images/line-4.png" alt=""></div>
+							<div class="darkHover"></div>
+							<div class="littleHover"></div>
+							<div class="blockTitle">
+								<p class="titleName">Standard Blog Title Here</p>
+								<p class="titleDate">27 July, 2014 | Category</p>
+							</div>
+						</div>
+						<div class="newsBlock">
+							<div class="blockImg"><img src="images/line-5.png" alt=""></div>
+							<div class="darkHover"></div>
+							<div class="littleHover"></div>
+							<div class="blockTitle">
+								<p class="titleName">Standard Blog Title Here</p>
+								<p class="titleDate">27 July, 2014 | Category</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="purchase">
+					<div class="purchaseCover"></div>
+					<div class="purchaseContent">
+						<h2>Get Stronger For Your Work</h2>
+						<h3>QuattroIT is One Of The Top Themeforest’s  Selling PSD Theme of All Time</h3>
+						<p><a href="#" class="purchaseBtn">Purchase now</a></p>
+					</div>
+				</div>
+
+				<section class="recent">
+					<div class="container">
+						<div class="row">
+							<div class="recent_box col-sm-6 col-md-3">
+								<h3>Quattro<span>IT</span></h3>
+								<p>Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris.</p>
+								<p>Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, nec imperdiet lacus semper.</p>
+							</div>
+							<div class="recent_box col-sm-6 col-md-3">
+								<h4>RECENT POSTS</h4>
+								<p class="recent_post">
+									Blog Slideshow Post <span>03 Jul</span>
+								</p>
+								<p class="recent_post">
+									Standard Post <span>27 May</span>
+								</p>
+								<p class="recent_post">
+									Video Post With Quote Post <span>23 May</span>
+								</p>
+								<p class="recent_post">
+									Text Post Only Type <span>15 Apr</span>
+								</p>
+								<p class="recent_post">
+									Awesome Post Title Here <span>04 Mar</span>
+								</p>
+							</div>
+							<div class="recent_box col-sm-6 col-md-3">
+								<h4>RECENT POSTS</h4>
+								<p class="recent_tweet">
+									<span class="tweet_icon"></span>
+									Just updated my new site.
+									@samisbister @wjndheo
+									<span class="upload_time">35 minutes ago</span>
+								</p>
+								<p class="recent_tweet">
+									<span class="tweet_icon"></span>
+									Hey everybody! Adelfox Update WP version. 356 Core Features Addes. Check it now! <a href="#">http://t.co/38t6sjx...</a>
+									@samisbister @wjndheo
+									<span class="upload_time">35 minutes ago</span>
+								</p>
+							</div>
+							<div class="recent_box col-sm-6 col-md-3">
+								<h4>FEATURED WORKS</h4>
+								<img src="images/w1.png" alt="">
+								<img src="images/w2.png" alt="">
+								<img src="images/w3.png" alt="">
+								<img src="images/w4.png" alt="">
+								<img src="images/w5.png" alt="">
+								<img src="images/w6.png" alt="">
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<footer>
+					<div class="container">
+						<div class="clearRow">
+							<div class="copyRights">
+								<p>Copyright 2014 <span class="fox">TheFox Theme</span> by Tran Mau Tri Tam  <span class="devider">|</span>  All Rights Reserved <span class="devider">|</span> Powered by WordPress</p>
+							</div>
+							<div class="social">
+								<a href="#" class="facebook"></a>
+								<a href="#" class="twitter"></a>
+								<a href="#" class="tumblr"></a>
+								<a href="#" class="vimeo"></a>
+								<a href="#" class="linkedin"></a>
+								<a href="#" class="flickr"></a>
+								<a href="#" class="instagram"></a>
+								<a href="#" class="rss"></a>
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript" src="js/js.js"></script>
+				</footer>
+
+		</div>
+	</div>
+
+</body>
+</html>
